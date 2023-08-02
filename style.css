@@ -1,0 +1,149 @@
+body{
+    overflow-x:hidden;
+    background-color: black;
+}
+
+.a{
+    text-decoration: none !important;
+}
+.brand{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:white;
+}
+.opt{
+    color:violet !important;    
+}
+.opt:hover{
+    background-color: #fe2c54;
+    transition: linear 2s;
+}
+.nav-anim {
+    font-weight: bold;
+    position: relative;
+    animation: mymove 2s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes mymove {
+    from {right:200px;}
+    to {right: 0px;}
+}
+.first{
+    margin-top: 100px;
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+}
+.intro-anim{
+    font-weight: bold;
+    position: relative;
+    animation: intromove 3s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes intromove{
+    from{
+        opacity: 0%;
+    
+    }
+    to{
+        opacity: 100%; 
+    }
+}
+.s2{
+    margin-top: 200px ;
+    color: white;
+}
+.intro-anim2{
+    position: relative;
+    animation: intromove 3s;
+    animation-timing-function: ease-in-out;
+
+}
+.title{
+    width:300px;
+
+}
+.abt-image{
+    width:200px;
+    border-radius:10%;
+}
+.p2{
+    margin-top: 50px !important;
+    font-size: large;
+}
+
+.tile{
+    border: 0.5px solid rgb(11 89 165 / 20%);
+    border-radius: 3%;
+    background-color: grey; 
+    width:300px;
+    height:250px;
+    animation: intromove2 3s;
+    animation-timing-function: ease-in-out ; 
+}
+.tile:hover{
+    background-color: #fe2c54;
+    border:none
+}
+@keyframes intromove2 {
+    from { background-color: grey;}
+    to{ background-color:#fe2c54}
+}
+
+.tile-content{
+    padding:10px 10px;
+    color:white;
+}
+.fa{
+   font-size: 30px;
+   color: grey;
+   text-decoration: none;
+}
+.fa:hover{
+    color:#fe2c54
+}
+
+ 
+
+/* Media Query for Small Devices */
+
+@media only screen and (min-width: 320px) and (max-width: 479px)
+{
+    
+    .first{
+        margin-left:100px;
+    }
+    .second{
+        margin-top:20px;
+    }
+    .Title{
+        margin-left:100px;
+    }
+    .title{
+        text-align: center;
+    }
+    .Offers{
+        margin-left:100px;
+    }
+    .OfferItems {
+        justify-content: center;
+    }
+    .Offer{
+        margin-top: 30px;
+    }
+    .desc{
+        margin-left:200px;
+        margin-top: 50px;
+    }
+    .Types{
+        font-size: medium !important;
+    }
+}
+  
+
+
+
+
+
+
+
